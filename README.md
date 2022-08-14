@@ -34,8 +34,8 @@ The input images must be named `{id}_{constraints}.png` where:
 
 ### Input
 
-![image](images/tracks/0_000000000000.png)
-![image](images/tracks/1_000010010010.png)
+![image](images/tracks/0_0000.png)
+![image](images/tracks/1_0111.png)
 
 ### Output
 
