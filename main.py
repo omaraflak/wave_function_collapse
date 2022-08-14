@@ -12,6 +12,7 @@ def read_image(filepath: str) -> NDArray:
 def make_tile(filepath: str) -> Tile:
     filename = os.path.basename(filepath)
     uid, constraints_str = filename.split('.')[0].split('_')
+    assert len(constraints_str) % 4 == 0
     sockets = len(constraints_str) // 4
     constraint = Constraint(*[
         constraints_str[i:i+sockets]
