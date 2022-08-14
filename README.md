@@ -9,7 +9,7 @@ The input images must be named `{id}_{constraints}.png` where:
     * These constraints will act as sockets to decide which tiles can be plugged to other tiles
 * Each image in the set will be rotated 3 times to produce more images
 
-# Sample Output
+# Examples
 
 ## Circuit
 
