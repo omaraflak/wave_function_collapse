@@ -9,11 +9,11 @@ The input images must be named `{id}_{constraints}.png` where:
     * These constraints will act as sockets to decide which tiles can be plugged to other tiles
 * Each image in the set will be rotated 3 times to produce more images
 
-# Examples
+## Examples
 
-## Circuit
+### Circuit
 
-### Input
+#### Input
 
 ![image](images/circuit/0_000000000000.png)
 ![image](images/circuit/1_111111111111.png)
@@ -27,17 +27,17 @@ The input images must be named `{id}_{constraints}.png` where:
 ![image](images/circuit/9_121121111121.png)
 ![image](images/circuit/10_121121121121.png)
 
-### Output
+#### Output
 
 ![image](output/circuit.png)
 
-## Tracks
+### Tracks
 
-### Input
+#### Input
 
 ![image](images/tracks/0_0000.png)
 ![image](images/tracks/1_0111.png)
 
-### Output
+#### Output
 
 ![image](output/tracks.png)
