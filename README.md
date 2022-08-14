@@ -7,6 +7,7 @@ The input images must be named `{id}_{constraints}.png` where:
 * `constraints` is the concatenation of `up`, `right`, `bottom`, and `left` constraints
     * Each of these constraints is a string of some arbitrary size, as long as all 4 constraints have the same size. Therefore, `len(constraints) % 4 == 0`.
     * These constraints will act as sockets to decide which tiles can be plugged to other tiles
+* Each image in the set will be rotated 3 times to produce more images
 
 # Sample Output
 
