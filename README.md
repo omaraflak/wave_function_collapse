@@ -31,13 +31,13 @@ The input images must be named `{id}_{constraints}.png` where:
 
 ![image](output/circuit.png)
 
-### Tracks
+### Track
 
 #### Input
 
-![image](images/tracks/0_0000.png)
-![image](images/tracks/1_0111.png)
+![image](images/track/0_0000.png)
+![image](images/track/1_0111.png)
 
 #### Output
 
-![image](output/tracks.png)
+![image](output/track.png)
