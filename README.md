@@ -31,6 +31,23 @@ The input images must be named `{id}_{constraints}.png` where:
 
 ![image](output/circuit.png)
 
+### Circle
+
+#### Input
+
+![image](images/circle/0_1000.png)
+![image](images/circle/1_1010.png)
+![image](images/circle/2_1100.png)
+![image](images/circle/3_1111.png)
+![image](images/circle/4_0111.png)
+![image](images/circle/5_0101.png)
+![image](images/circle/6_0011.png)
+![image](images/circle/7_0000.png)
+
+#### Output
+
+![image](output/circle.png)
+
 ### Track
 
 #### Input

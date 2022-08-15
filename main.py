@@ -57,7 +57,7 @@ def get_tiles_and_images(files: list[str]) -> tuple[dict[str, Tile], dict [str, 
 
 
 def main():
-    dir = 'images/tracks'
+    dir = 'images/circle'
     files = [os.path.join(dir, path) for path in os.listdir(dir)]
     tiles, images = get_tiles_and_images(files)
     output = build_image(images, generate(tiles, 20, 20))
